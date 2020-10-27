@@ -1,0 +1,11 @@
+[package]
+name = "lto-bug"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+name = "lto_bug"
+
+[profile.release]
+lto = true
